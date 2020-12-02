@@ -2,7 +2,7 @@ const app = require('express')();
 const bodyParser = require('body-parser');
 const faunadb = require('faunadb');
 const client = new faunadb.Client({ secret: 'fnAD7b1OMrACCOlGhhTNxC7c2rAgAsOdMEu4hrrG' })
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 4000
 
 const {
     Ref,
